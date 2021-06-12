@@ -1,0 +1,21 @@
+@import url("fonts.googleapis.com/earlyaccess/notonaskharabic.css");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+
+    :root{
+        --primeryColor:#687980;
+        --secondaryColor:#f3bda1;
+        --mainWhite:#fefecc;
+        --mainBlack:#02475e;
+        }
+body {
+    color: var(--mainBlack);
+    font-family: "notonaskharabic";
+    background-color: var(--mainWhite);
+    position: relative;
+
+}
