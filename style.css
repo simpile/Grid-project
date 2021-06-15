@@ -7,15 +7,54 @@
     }
 
     :root{
-        --primeryColor:#687980;
-        --secondaryColor:#f3bda1;
-        --mainWhite:#fefecc;
-        --mainBlack:#02475e;
+        --primeryColor:#fefecc;
+        --secondaryColor:#02475e;
+        --mainWhite:#f3bda1;
+        --mainBlack:#687980;
+        --mainRed:#bb0466;
+
         }
 body {
     color: var(--mainBlack);
     font-family: "notonaskharabic";
     background-color: var(--mainWhite);
     position: relative;
+}
 
+#navbar{
+    background-color: var(--secondaryColor);
+    height: 60px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.center{
+    width: 100%;
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuIcon{
+    font: 1.5em sans-serif;
+}
+#cart{
+    position: relative;
+}
+.cartNumber{
+    position: absolute;
+    background-color: var(--mainRed);
+    /* padding: 3px; */
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -10px;
+    right: -10px;
+    font-size: small;
+    color: white;
 }
