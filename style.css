@@ -73,7 +73,10 @@ body {
 }
 
 /* main part */
-
+#main{
+    /* height: 100vh; */
+    margin-bottom: 40px;
+}
 .mainCenter{
 display: flex;
 flex-direction: column;
@@ -109,7 +112,7 @@ border-radius: 12px 12px 0 0;
 
 .itemCenter{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-gap: 2.5rem;
     padding: 1rem;
 
@@ -155,28 +158,39 @@ padding-bottom: 1rem;
 
 #footer{
     width: 100%;
-    /* min-height: 180px; */
+    /* height: 100vh; */
     background-color: var(--secondaryColor);
-    margin-top: 30px;
+    /* margin-top: 30px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
+    line-height: 2rem;
 }
 
 #footerPartA{
     /* background-color: cornflowerblue; */
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
 }
+
 #footerPartB{
     /* background-color: var(--mainWhite); */
+    display: flex;
+    justify-content: space-between;
+    width: 36%;
 }
 
 #footerPartC{
     /* background-color: crimson; */
     overflow: hidden;
+    width: 33.33%;
 }
 
-.footerPartsContainer{
+.footerHolder{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -186,4 +200,53 @@ padding: 1.5rem;
 }
 .footerTitle{
     text-transform: uppercase;
+    /* font-size: 1.5rem; */
+    font-weight: bold;
+    color: var(--primeryColor);
+}
+
+#footerIconHolder{
+    display: flex;
+   justify-content: space-around;
+    font-size: 1.5rem;
+    /* color:#; */
+    width: 100%;
+}
+
+#footerInputHolder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+#footerInput{
+    width: 70%;
+    border: none;
+    background-color: var(--primeryColor);
+    color: var(--mainBlack);
+   
+    padding: 1rem 0.5rem;
+    
+    
+}
+
+#footerButton{
+    width: 30%;
+    border: none;
+    border-radius: none;
+ background-color: var(--mainWhite);
+ color: var(--secondaryColor);
+
+ padding: 1rem 0.5rem;
+ font-weight: bold;
+}
+
+#footerText{
+    width: 70%;
+}
+
+.footerSign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
