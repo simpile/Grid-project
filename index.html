@@ -15,7 +15,8 @@
     <!-- navbar -->
     <nav id="navbar">
         <div id="navbarCenter" class="center">
-            <span id="barIcon" class="menuIcon"><i class="fa fa-bars"></i></span>
+            
+            <span id="barIcon" class="menuIcon"  onclick="OpenMenu(), Myfunction()"><i class="fa fa-bars"></i></span>
 
             <p class="pointer">
                 Digital Store</p>
@@ -26,116 +27,122 @@
         </div>
     </nav>
     <!-- main part -->
+    
+    <div id="modalMainHolder">
 
-
-        <main id="main">
-            <div class="mainCenter">
-                <h1 id="title">our products</h1>
+        <div id="modalMenu">
+            1
+        </div>
     
-                <!-- items -->
-                <div class="center itemCenter">
-    
-                    <!-- item1 -->
-                    <section class="items">
-                        <div class="imageCenter">
-                            <img class="imageItem" src="./images/image01.jpg" alt="item1">
-                        </div>
-                        <div class="itemInfo">
-                            <h4 class="itemTitle">play station2</h4>
-                            <p class="itemPrice">price: 10$</p>
-                        </div>
-                        <button class="moreInfo pointer">More info</button>
-                    </section>
-    
-                    <!-- item2 -->
-                    <section class="items">
-                        <div class="imageCenter">
-                            <img class="imageItem" src="./images/image02.jpg" alt="item1">
-                        </div>
-                        <div class="itemInfo">
-                            <h4 class="itemTitle">play station3</h4>
-                            <p class="itemPrice">price: 50$</p>
-                        </div>
-                        <button class="moreInfo pointer">More info</button>
-                    </section>
-    
-    
-                    <!-- item3 -->
-                    <section class="items">
-                        <div class="imageCenter">
-                            <img class="imageItem" src="./images/image01.jpg" alt="item1">
-                        </div>
-                        <div class="itemInfo">
-                            <h4 class="itemTitle">play station4</h4>
-                            <p class="itemPrice">price: 100$</p>
-                        </div>
-                        <button class="moreInfo pointer">More info</button>
-                    </section>
-    
-                    <!-- item4 -->
-                    <section class="items">
-                        <div class="imageCenter">
-                            <img class="imageItem" src="./images/image02.jpg" alt="item1">
-                        </div>
-                        <div class="itemInfo">
-                            <h4 class="itemTitle">play station5</h4>
-                            <p class="itemPrice">price: 200$</p>
-                        </div>
-                        <button class="moreInfo pointer">More info</button>
-                    </section>
-                              <!-- item1 -->
-                              <section class="items">
-                                <div class="imageCenter">
-                                    <img class="imageItem" src="./images/image01.jpg" alt="item1">
-                                </div>
-                                <div class="itemInfo">
-                                    <h4 class="itemTitle">play station2</h4>
-                                    <p class="itemPrice">price: 10$</p>
-                                </div>
-                                <button class="moreInfo pointer">More info</button>
-                            </section>
-    
-                            <!-- item2 -->
-                            <section class="items">
-                                <div class="imageCenter">
-                                    <img class="imageItem" src="./images/image02.jpg" alt="item1">
-                                </div>
-                                <div class="itemInfo">
-                                    <h4 class="itemTitle">play station3</h4>
-                                    <p class="itemPrice">price: 50$</p>
-                                </div>
-                                <button class="moreInfo pointer">More info</button>
-                            </section>
-    
-    
-                            <!-- item3 -->
-                            <section class="items">
-                                <div class="imageCenter">
-                                    <img class="imageItem" src="./images/image01.jpg" alt="item1">
-                                </div>
-                                <div class="itemInfo">
-                                    <h4 class="itemTitle">play station4</h4>
-                                    <p class="itemPrice">price: 100$</p>
-                                </div>
-                                <button class="moreInfo pointer">More info</button>
-                            </section>
-    
-                            <!-- item4 -->
-                            <section class="items">
-                                <div class="imageCenter">
-                                    <img class="imageItem" src="./images/image02.jpg" alt="item1">
-                                </div>
-                                <div class="itemInfo">
-                                    <h4 class="itemTitle">play station5</h4>
-                                    <p class="itemPrice">price: 200$</p>
-                                </div>
-                                <button class="moreInfo pointer">More info</button>
-                            </section>
-    
-    
+            <main id="main">
+                <div class="mainCenter">
+                    <h1 id="title">our products</h1>
+        
+                    <!-- items -->
+                    <div class="center itemCenter">
+        
+                        <!-- item1 -->
+                        <section class="items">
+                            <div class="imageCenter">
+                                <img class="imageItem" src="./images/image01.jpg" alt="item1">
+                            </div>
+                            <div class="itemInfo">
+                                <h4 class="itemTitle">play station2</h4>
+                                <p class="itemPrice">price: 10$</p>
+                            </div>
+                            <button class="moreInfo pointer">More info</button>
+                        </section>
+        
+                        <!-- item2 -->
+                        <section class="items">
+                            <div class="imageCenter">
+                                <img class="imageItem" src="./images/image02.jpg" alt="item1">
+                            </div>
+                            <div class="itemInfo">
+                                <h4 class="itemTitle">play station3</h4>
+                                <p class="itemPrice">price: 50$</p>
+                            </div>
+                            <button class="moreInfo pointer">More info</button>
+                        </section>
+        
+        
+                        <!-- item3 -->
+                        <section class="items">
+                            <div class="imageCenter">
+                                <img class="imageItem" src="./images/image01.jpg" alt="item1">
+                            </div>
+                            <div class="itemInfo">
+                                <h4 class="itemTitle">play station4</h4>
+                                <p class="itemPrice">price: 100$</p>
+                            </div>
+                            <button class="moreInfo pointer">More info</button>
+                        </section>
+        
+                        <!-- item4 -->
+                        <section class="items">
+                            <div class="imageCenter">
+                                <img class="imageItem" src="./images/image02.jpg" alt="item1">
+                            </div>
+                            <div class="itemInfo">
+                                <h4 class="itemTitle">play station5</h4>
+                                <p class="itemPrice">price: 200$</p>
+                            </div>
+                            <button class="moreInfo pointer">More info</button>
+                        </section>
+                                  <!-- item1 -->
+                                  <section class="items">
+                                    <div class="imageCenter">
+                                        <img class="imageItem" src="./images/image01.jpg" alt="item1">
+                                    </div>
+                                    <div class="itemInfo">
+                                        <h4 class="itemTitle">play station2</h4>
+                                        <p class="itemPrice">price: 10$</p>
+                                    </div>
+                                    <button class="moreInfo pointer">More info</button>
+                                </section>
+        
+                                <!-- item2 -->
+                                <section class="items">
+                                    <div class="imageCenter">
+                                        <img class="imageItem" src="./images/image02.jpg" alt="item1">
+                                    </div>
+                                    <div class="itemInfo">
+                                        <h4 class="itemTitle">play station3</h4>
+                                        <p class="itemPrice">price: 50$</p>
+                                    </div>
+                                    <button class="moreInfo pointer">More info</button>
+                                </section>
+        
+        
+                                <!-- item3 -->
+                                <section class="items">
+                                    <div class="imageCenter">
+                                        <img class="imageItem" src="./images/image01.jpg" alt="item1">
+                                    </div>
+                                    <div class="itemInfo">
+                                        <h4 class="itemTitle">play station4</h4>
+                                        <p class="itemPrice">price: 100$</p>
+                                    </div>
+                                    <button class="moreInfo pointer">More info</button>
+                                </section>
+        
+                                <!-- item4 -->
+                                <section class="items">
+                                    <div class="imageCenter">
+                                        <img class="imageItem" src="./images/image02.jpg" alt="item1">
+                                    </div>
+                                    <div class="itemInfo">
+                                        <h4 class="itemTitle">play station5</h4>
+                                        <p class="itemPrice">price: 200$</p>
+                                    </div>
+                                    <button class="moreInfo pointer">More info</button>
+                                </section>
+        
+        
+                    </div>
                 </div>
-            </div>
-        </main>
+            </main>
+    </div>
   
 </div>
     <!-- footer -->

@@ -236,6 +236,15 @@ body {
   display: none;
 }
 
+/* modalmenu */
+
+#modalMenu{
+    background-color: #f3bda1;
+    /* width:100%;
+    height: 200vh; */
+    /* display: block; */
+}
+
 
 /* Responsive */
 
@@ -253,3 +262,11 @@ body {
     order: 1;
   }
 }
+
+#modalMainHolder{
+    /* display: grid;
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 0.5rem; */
+    /* display: flex; */
+}
+
