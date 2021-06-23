@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 :root {
   --firstColor: #fefecc;
@@ -11,12 +13,14 @@
   --forthColor: #687980;
   --sixthColor: #bb0466;
   --seventhColor: #68798054;
+  
 }
 body {
   color: var(--forthColor);
   font-family: "notonaskharabic";
   background-color: white;
   position: relative;
+  
 }
 .pointer {
   cursor: pointer;
@@ -267,7 +271,7 @@ body {
 }
 /* modalmenu */
 #modalMenu{
-    background-color: #f3bda1;
+    /* background-color: var(--firstColor); */
      width:100%;
     height: 100%;
     display: none;
@@ -293,4 +297,39 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.menuItem{
+padding: 2rem;
+/* border-bottom: 1px solid var(--thirdColor); */
+width: 90%;
+margin: 0 auto;
+background-color: var(--firstColor);
+color: var(--secondColor);
+display: flex;
+justify-content: space-between;
+
+
+
+
+}
+.menuItem a{
+  color: var(--secondColor);
+  font-size: larger;
+  font-weight: bold;
+ 
+}
+
+
+.menuItem:hover{
+
+  /* scale: 1.5; */
+  margin-left: 2rem;
+  color: var(--thirdColor);
+  
+}
+
+#endMenuItems{
+  width: 100%;
+  justify-self: flex-end;
 }
