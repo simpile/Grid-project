@@ -14,5 +14,12 @@
 >8- design the footer part
 
 
+
 Click here to see the index result👇🏻
-https://rawcdn.githack.com/simpile/Grid-project/30c191799ab633956f6453f22136d21eec4f7641/index.html
+
+_  https://rawcdn.githack.com/simpile/Grid-project/764e31c3c930316a172d7c16f2ffed9c04402d79/index.html
+
+_  https://rawcdn.githack.com/simpile/Grid-project/30c191799ab633956f6453f22136d21eec4f7641/index.html
+
+
+   
