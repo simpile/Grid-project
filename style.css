@@ -295,39 +295,36 @@ body {
 #menuHolder{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  /* align-items: center; */
+  /* justify-content: space-between; */
 }
 
 .menuItem{
-padding: 2rem;
+padding: 1rem;
 /* border-bottom: 1px solid var(--thirdColor); */
 width: 90%;
 margin: 0 auto;
-background-color: var(--firstColor);
-color: var(--secondColor);
+background-color: var(--seventhColor);
+color: var(--forthColor);
 display: flex;
-justify-content: space-between;
-
-
-
-
-}
-.menuItem a{
-  color: var(--secondColor);
-  font-size: larger;
+justify-content:flex-end;
+font-size: larger;
   font-weight: bold;
- 
 }
+
 
 
 .menuItem:hover{
 
   /* scale: 1.5; */
   margin-left: 2rem;
-  color: var(--thirdColor);
+  color: var(--secondColor);
+  transition:ease-in;
   
 }
+/* .menuItem:active{
+
+} */
 
 #endMenuItems{
   width: 100%;
