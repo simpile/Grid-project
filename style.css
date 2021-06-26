@@ -12,7 +12,8 @@
   --thirdColor: #f3bda1;
   --forthColor: #687980;
   --sixthColor: #bb0466;
-  --seventhColor: #68798054;
+  --seventhColor: #969a9c54;
+  --lightGrey: #7c7c7ced;
   
 }
 body {
@@ -35,6 +36,7 @@ body {
   height: 60px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .center {
   width: 100%;
@@ -289,27 +291,38 @@ body {
   grid-template-columns: 20% 80%;
   grid-column-gap: 0.5rem; 
   /* display: flex; */
+
   
 }
 
 #menuHolder{
+ margin-left: 1rem;
+  width: 25%;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
   /* justify-content: space-between; */
+ padding-bottom: 5rem;
+  position: absolute;
+ filter:  drop-shadow(0 0 0.75rem var(--seventhColor));
 }
 
 .menuItem{
+  /* margin-left: 1rem; */
 padding: 1rem;
 /* border-bottom: 1px solid var(--thirdColor); */
-width: 90%;
+width: 100%;
 margin: 0 auto;
-background-color: var(--seventhColor);
-color: var(--forthColor);
+background-color: var(--firstColor);
+color: var(--secondColor);
 display: flex;
-justify-content:flex-end;
+justify-content:space-between;
 font-size: larger;
   font-weight: bold;
+  position: sticky;
+  
+
+
 }
 
 
@@ -318,7 +331,7 @@ font-size: larger;
 
   /* scale: 1.5; */
   margin-left: 2rem;
-  color: var(--secondColor);
+  color: var(--lightGrey);
   transition:ease-in;
   
 }
