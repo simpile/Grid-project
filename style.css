@@ -281,7 +281,7 @@ body {
   
 }
 
-#menuHolder{
+#menuHolder {
  margin-left: 1rem;
   width: 25%;
   display: flex;
@@ -293,7 +293,7 @@ body {
  filter:  drop-shadow(0 0 0.75rem var(--seventhColor));
 }
 
-.menuItem{
+.menuItem {
   /* margin-left: 1rem; */
 padding: 1rem;
 /* border-bottom: 1px solid var(--thirdColor); */
@@ -325,8 +325,17 @@ font-size: larger;
 
 } */
 
+#modalCartHolder{
+width: 25%;
+position: absolute;
+right: 0;
+margin-right: 1rem;
 
-
+}
+.modalCart{
+width: 100%;
+background-color: var(--firstColor);
+}
 
 @media screen and (max-width: 891px) {
   .footerHolder {

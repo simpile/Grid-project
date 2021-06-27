@@ -16,12 +16,12 @@
     <nav id="navbar">
         <div id="navbarCenter" class="center">
             
-            <span id="barIcon" class="menuIcon"  onclick="OpenMenu()"><i class="fa fa-bars"></i></span>
+            <span id="barIcon" class="menuIcon"  ><i onclick="OpenMenu()" class="fa fa-bars"></i></span>
 
             <p class="pointer">
                 Digital Store</p>
 
-            <span id="cart" class="menuIcon"><i class="fa fa-cart-plus"></i>
+            <span id="cart" class="menuIcon"><i onclick="OpenCartMenu()" class="fa fa-cart-plus" ></i>
                 <span class="cartNumber">0</span>
             </span>
         </div>
@@ -54,13 +54,18 @@
                            
                         </ul>
                     </div>  
-        
+        <!-- cartModalMenu -->
+      <div id="modalCartHolder">
+        <div class="modalCart">
+1
+
+
+        </div></div>
                     <!-- Grid -->
                     <div class="center itemCenter">
                         <!-- Modal Menu -->
                         
-                        <!-- <h1 id="title">our products</h1> -->
-                        <!-- item1 -->
+            
                         <section class="items">
                             <div class="imageCenter">
                                 <img class="imageItem" src="./images/image01.jpg" alt="item1">
@@ -162,8 +167,7 @@
                 </div>
             </main>
     </div>
-  
-</div>
+
     <!-- footer -->
     <footer id="footer">
         <div class="center">
@@ -227,3 +231,4 @@
 <!-- javascript -->
 <script src="function.js"></script>
 </html>
+
