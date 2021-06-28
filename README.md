@@ -12,6 +12,7 @@
 >6- design the header part of the site
 >7- design the main part or products 
 >8- design the footer part
+<<<<<<< HEAD
 
 
 
@@ -23,3 +24,5 @@ _  https://rawcdn.githack.com/simpile/Grid-project/30c191799ab633956f6453f22136d
 
 
    
+=======
+>>>>>>> 2307a87 (project introduction)
